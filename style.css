@@ -69,6 +69,11 @@ h3 {
 	font-size: 1.25rem;
 }
 
+h3:hover {
+	color: var(--yellow);
+	cursor: pointer;
+}
+
 .article {
 	color: var(--gray-500);
 	font-size: 0.875rem;
