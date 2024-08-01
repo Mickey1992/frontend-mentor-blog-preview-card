@@ -7,8 +7,8 @@
 	--gray-950: hsl(0, 0%, 7%);
 	font-family: "Figtree", sans-serif;
 
-	font-size: 16px;
 	line-height: 1.5;
+	font-size: 16px;
 }
 
 *,
@@ -93,4 +93,10 @@ h3:hover {
 	font-size: 0.875rem;
 	font-weight: 800;
 	margin-left: 0.75rem;
+}
+
+@media (min-width: 48em) {
+	:root {
+		font-size: min(calc(1em + 0.1vw), 1.2em);
+	}
 }
