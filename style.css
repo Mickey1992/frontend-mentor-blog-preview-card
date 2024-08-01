@@ -6,16 +6,24 @@
 	--gray-500: hsl(0, 0%, 42%);
 	--gray-950: hsl(0, 0%, 7%);
 	font-family: "Figtree", sans-serif;
+
+	font-size: 16px;
+	line-height: 1.5;
 }
 
 *,
 ::before,
 ::after {
 	box-sizing: border-box;
+	margin: 0;
 }
 
 body {
 	background-color: var(--yellow);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 .card-box {
@@ -28,9 +36,19 @@ body {
 	padding: 1.5em;
 }
 
+.card-body {
+	margin: 1.5rem 0;
+}
+
+.card-body * + * {
+	margin-top: 0.75rem;
+}
+
 .blog-img {
-	width: 100%;
 	border-radius: 0.5em;
+	height: 12.5rem;
+	width: 17.4375rem;
+	object-fit: cover;
 }
 
 .category {
