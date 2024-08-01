@@ -25,4 +25,10 @@ body {
 	background-color: var(--white);
 	border-radius: 1em;
 	box-shadow: 0.5em 0.5em var(--gray-950);
+	padding: 1.5em;
+}
+
+.blog-img {
+	width: 100%;
+	border-radius: 1em;
 }
